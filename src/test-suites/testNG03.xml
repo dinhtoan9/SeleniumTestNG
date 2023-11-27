@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1">
+    <test name="Run with Method">
+        <classes>
+            <class name="nguyendinh.com.Bai9_TestNGFramework.RunTestNG  ">
+                <methods>
+                    <include name="testAnhTesterBlog" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
