@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1">
+    <test name="RunbyClass">
+        <classes>
+            <class name="nguyendinh.com.Bai9_TestNG.RunTestNG01"/>
+            <class name="nguyendinh.com.Bai9_TestNG.RunTestNG02"/>
+        </classes>
+    </test>
+</suite>
